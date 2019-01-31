@@ -2,8 +2,9 @@
 this program taken from arduino Example .
   modified by By Mohannad Rawashdeh
   http://www.genotronex.com
-https://www.instructables.com/
-
+  https://www.instructables.com/
+  Based on code found here: https://www.instructables.com/id/Digital-Potentiometer-MCP41100-and-Arduino/
+  Modified by Jeremy S. Cook1/30/2019
   This code used to control the digital potentiometer
   MCP41100 connected to  arduino Board
   CS >>> D10
@@ -17,9 +18,6 @@ https://www.instructables.com/
 byte address = 0x11;
 int CS= 10;
 int i=0;
-
-//Based on code found here: https://www.instructables.com/id/Digital-Potentiometer-MCP41100-and-Arduino/
-//Modified by Jeremy S. Cook
 
 void setup()
 {
